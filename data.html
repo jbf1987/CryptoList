@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Crypto Market Data</title>
+</head>
+
+<body>
+
+<h1>Crypto Market Data</h1>
+
+<div id="content">
+Cargando datos...
+</div>
+
+<script>
+
+fetch("data/marketdata.json")
+.then(response => response.json())
+.then(data => {
+
+let html = "";
+
+html += "<h2>Última actualización</h2>";
+html += "<p>" + data.updated_at + "</p>";
+
+html += "<h2>Coins</h2>";
+
+data.coins.forEach(coin => {
+
+html += `
+<hr>
+
+<h3>${coin.name} (${coin.symbol})</h3>
+
+<p>
+Precio USD: ${coin.price_usd}<br>
+Variación 1h: ${coin.change_1h_pct}%<br>
+Variación 24h: ${coin.change_24h_pct}%<br>
+Variación 7d: ${coin.change_7d_pct}%<br>
+Variación 30d: ${coin.change_30d_pct}%<br>
+Market Cap: ${coin.market_cap}<br>
+Volumen 24h: ${coin.volume_24h}<br>
+Ranking: ${coin.market_cap_rank}
+</p>
+`;
+
+});
+
+document.getElementById("content").innerHTML = html;
+
+})
+
+.catch(error => {
+
+document.getElementById("content").innerHTML =
+"Error leyendo datos: " + error;
+
+});
+
+</script>
+
+</body>
+</html>
