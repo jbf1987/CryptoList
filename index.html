@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Crypto Dashboard</title>
+    <meta charset="UTF-8">
+    <title>Crypto Dashboard</title>
 </head>
 <body>
 
 <h1>Crypto Dashboard</h1>
 
-<p>Si ves este texto, GitHub Pages funciona correctamente.</p>
+<pre id="json">Cargando...</pre>
+
+<script>
+fetch("data/marketdata.json")
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById("json").textContent =
+            JSON.stringify(data, null, 2);
+    })
+    .catch(error => {
+        document.getElementById("json").textContent =
+            "Error cargando el JSON:\n\n" + error;
+    });
+</script>
 
 </body>
 </html>
