@@ -9,56 +9,59 @@
 
 <h1>Crypto Market Data</h1>
 
-<div id="content">
-Cargando datos...
-</div>
+<p>Última actualización: 2026-08-03T20:22:52.723Z</p>
 
-<script>
-
-fetch("data/marketdata.json")
-.then(response => response.json())
-.then(data => {
-
-let html = "";
-
-html += "<h2>Última actualización</h2>";
-html += "<p>" + data.updated_at + "</p>";
-
-html += "<h2>Coins</h2>";
-
-data.coins.forEach(coin => {
-
-html += `
-<hr>
-
-<h3>${coin.name} (${coin.symbol})</h3>
-
+<h2>Bitcoin (BTC)</h2>
 <p>
-Precio USD: ${coin.price_usd}<br>
-Variación 1h: ${coin.change_1h_pct}%<br>
-Variación 24h: ${coin.change_24h_pct}%<br>
-Variación 7d: ${coin.change_7d_pct}%<br>
-Variación 30d: ${coin.change_30d_pct}%<br>
-Market Cap: ${coin.market_cap}<br>
-Volumen 24h: ${coin.volume_24h}<br>
-Ranking: ${coin.market_cap_rank}
+Precio USD: 63943<br>
+24h: 0.9%<br>
+7d: -1.4%<br>
+30d: 1.2%<br>
+Market Cap: 1282496650019<br>
+Rank: 1
 </p>
-`;
 
-});
+<h2>Ethereum (ETH)</h2>
+<p>
+Precio USD: 1873.61<br>
+24h: -0.2%<br>
+7d: -3.5%<br>
+30d: 4.3%<br>
+Market Cap: 226007639476<br>
+Rank: 2
+</p>
 
-document.getElementById("content").innerHTML = html;
+<h2>Chainlink (LINK)</h2>
+<p>
+Precio USD: 8.25<br>
+24h: -1%<br>
+7d: -4.1%<br>
+30d: 1.8%
+</p>
 
-})
+<h2>Cardano (ADA)</h2>
+<p>
+Precio USD: 0.194584<br>
+24h: 2.3%<br>
+7d: 22.4%<br>
+30d: -0.8%
+</p>
 
-.catch(error => {
+<h2>Polkadot (DOT)</h2>
+<p>
+Precio USD: 0.821234<br>
+24h: 3.4%<br>
+7d: 4.3%<br>
+30d: -8%
+</p>
 
-document.getElementById("content").innerHTML =
-"Error leyendo datos: " + error;
-
-});
-
-</script>
+<h2>Render (RENDER)</h2>
+<p>
+Precio USD: 1.36<br>
+24h: -0.7%<br>
+7d: -5.4%<br>
+30d: -15.9%
+</p>
 
 </body>
 </html>
