@@ -1,31 +1,31 @@
 {
-  "updated_at": "2026-08-22T09:02:20.467Z",
+  "updated_at": "2026-08-22T09:55:53.653Z",
   "source": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin,ethereum,chainlink,cardano,polkadot,render-token&sparkline=false&price_change_percentage=1h,24h,7d,30d",
   "coins": [
     {
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price_usd": 77182,
+      "price_usd": 76984,
       "change_1h_pct": -0.2,
       "change_24h_pct": 0.9,
       "change_7d_pct": 22.5,
       "change_30d_pct": 18,
-      "market_cap": 1549164107717,
-      "volume_24h": 62107872032,
+      "market_cap": 1544964415201,
+      "volume_24h": 58260397775,
       "market_cap_rank": 1
     },
     {
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "price_usd": 2424.42,
+      "price_usd": 2419.46,
       "change_1h_pct": -0.4,
       "change_24h_pct": 2,
       "change_7d_pct": 29,
       "change_30d_pct": 26.6,
-      "market_cap": 292582660560,
-      "volume_24h": 31196691776,
+      "market_cap": 291962437630,
+      "volume_24h": 30081544467,
       "market_cap_rank": 2
     },
     {
@@ -37,34 +37,34 @@
       "change_24h_pct": 0.4,
       "change_7d_pct": 24.5,
       "change_30d_pct": 35.9,
-      "market_cap": 8677791754,
-      "volume_24h": 1068756919,
+      "market_cap": 8675413450,
+      "volume_24h": 1046429372,
       "market_cap_rank": 15
     },
     {
       "id": "cardano",
       "symbol": "ADA",
       "name": "Cardano",
-      "price_usd": 0.22681,
+      "price_usd": 0.225637,
       "change_1h_pct": -2,
       "change_24h_pct": 7.8,
       "change_7d_pct": 26.7,
       "change_30d_pct": 31,
-      "market_cap": 8502218523,
-      "volume_24h": 1419768311,
+      "market_cap": 8454164948,
+      "volume_24h": 1373378449,
       "market_cap_rank": 18
     },
     {
       "id": "polkadot",
       "symbol": "DOT",
       "name": "Polkadot",
-      "price_usd": 0.932371,
+      "price_usd": 0.924134,
       "change_1h_pct": -1.6,
       "change_24h_pct": 7.1,
       "change_7d_pct": 20.9,
       "change_30d_pct": 13.6,
-      "market_cap": 1584261179,
-      "volume_24h": 257769718,
+      "market_cap": 1570177990,
+      "volume_24h": 248134300,
       "market_cap_rank": 54
     },
     {
@@ -76,8 +76,8 @@
       "change_24h_pct": 1.9,
       "change_7d_pct": 17.7,
       "change_30d_pct": -1.1,
-      "market_cap": 774397717,
-      "volume_24h": 87530498,
+      "market_cap": 773447871,
+      "volume_24h": 86686793,
       "market_cap_rank": 84
     }
   ]
