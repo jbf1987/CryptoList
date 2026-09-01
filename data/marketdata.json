@@ -1,71 +1,71 @@
 {
-  "updated_at": "2026-09-01T07:48:43.210Z",
+  "updated_at": "2026-09-01T07:59:36.028Z",
   "source": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin,ethereum,chainlink,cardano,polkadot,render-token&sparkline=false&price_change_percentage=1h,24h,7d,30d",
   "coins": [
     {
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price_usd": 78583,
+      "price_usd": 78611,
       "change_1h_pct": -0.5,
-      "change_24h_pct": 0.44728,
+      "change_24h_pct": 0.51995,
       "change_7d_pct": -2.4,
       "change_30d_pct": 24.2,
-      "market_cap": 1577967823543,
-      "volume_24h": 28991448555,
+      "market_cap": 1578693127407,
+      "volume_24h": 29012819410,
       "market_cap_rank": 1
     },
     {
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "price_usd": 2468.71,
+      "price_usd": 2471.15,
       "change_1h_pct": -0.5,
-      "change_24h_pct": 1.19124,
+      "change_24h_pct": 1.27055,
       "change_7d_pct": -1.4,
       "change_30d_pct": 31.9,
-      "market_cap": 297987646212,
-      "volume_24h": 11133060631,
+      "market_cap": 298302923338,
+      "volume_24h": 11064669646,
       "market_cap_rank": 2
     },
     {
       "id": "chainlink",
       "symbol": "LINK",
       "name": "Chainlink",
-      "price_usd": 11.45,
+      "price_usd": 11.47,
       "change_1h_pct": -0.2,
-      "change_24h_pct": 1.6006,
+      "change_24h_pct": 1.75393,
       "change_7d_pct": -2.7,
       "change_30d_pct": 37.1,
-      "market_cap": 8568310090,
-      "volume_24h": 405054548,
-      "market_cap_rank": 16
+      "market_cap": 8583719819,
+      "volume_24h": 405911237,
+      "market_cap_rank": 15
     },
     {
       "id": "cardano",
       "symbol": "ADA",
       "name": "Cardano",
-      "price_usd": 0.19978,
+      "price_usd": 0.20034,
       "change_1h_pct": -1.1,
-      "change_24h_pct": 2.0994,
+      "change_24h_pct": 2.26257,
       "change_7d_pct": -11.6,
       "change_30d_pct": 8.3,
-      "market_cap": 7493101191,
-      "volume_24h": 310456640,
-      "market_cap_rank": 19
+      "market_cap": 7514638767,
+      "volume_24h": 316579139,
+      "market_cap_rank": 18
     },
     {
       "id": "polkadot",
       "symbol": "DOT",
       "name": "Polkadot",
-      "price_usd": 0.86839,
+      "price_usd": 0.86913,
       "change_1h_pct": 1.6,
-      "change_24h_pct": 4.421,
+      "change_24h_pct": 4.57907,
       "change_7d_pct": -5.2,
       "change_30d_pct": 9.4,
-      "market_cap": 1476853087,
-      "volume_24h": 118644813,
-      "market_cap_rank": 58
+      "market_cap": 1478440888,
+      "volume_24h": 120202898,
+      "market_cap_rank": 57
     },
     {
       "id": "render-token",
@@ -73,12 +73,12 @@
       "name": "Render",
       "price_usd": 1.45,
       "change_1h_pct": -0.6,
-      "change_24h_pct": 2.34585,
+      "change_24h_pct": 2.13398,
       "change_7d_pct": -6.8,
       "change_30d_pct": 6,
-      "market_cap": 754791209,
-      "volume_24h": 29842015,
-      "market_cap_rank": 85
+      "market_cap": 754042696,
+      "volume_24h": 30376576,
+      "market_cap_rank": 84
     }
   ]
 }
